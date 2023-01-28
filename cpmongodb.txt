@@ -67,7 +67,9 @@ switched to db contact
 }
 
 
-
+> db.contactlist.find({Age : {$gt : 18}})
+{ "_id" : ObjectId("63d38953864ef4e49e4e6665"), "Lastname" : "Ben Lahmar", "Firstname" : "Fares", "Email" : "Fares@gmail.com", "Age" : 26 }
+{ "_id" : ObjectId("63d38af1864ef4e49e4e6667"), "Lastname" : "Fatnassi", "Firstname" : "Sarra", "Email" : "Sarra@gmail.com", "Age" : 40 }
 
 
 
